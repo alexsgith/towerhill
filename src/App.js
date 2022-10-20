@@ -1,12 +1,8 @@
-
-import './App.css';
+import Login from "./Login";
+import "./App.css";
 
 function App() {
-  return (
-    <div className="App">
-      <h1>helloo</h1>
-    </div>
-  );
+  return <Login />;
 }
 
 export default App;
