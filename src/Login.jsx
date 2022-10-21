@@ -1,14 +1,16 @@
 import './login.css'
 function Login() {
     return (
-        <div >
-            <img src='./images/logo.png'></img><br></br>
-            <h2> Welcome to towerhill</h2><br />
-            <h3>please authorize yourself</h3><br />
-            <label for="psw">Password</label>
-            <input type="password" id="psw" name="psw" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" title="Must contain at least one number and one uppercase and lowercase letter, and at least 8 or more characters" required></input><br />
-            <input type="submit" value="Submit"></input>
-        </div> 
+        <div className='name'>
+          <h2 className='font-bold text-[#1d3d6a] justify-center'>Welcome to Towerhill</h2>  
+          <br />
+            <div className= 'box bg-white drop-shadow-lg rounded-lg' >
+                <img src='./images/logo.png' alt="logo"></img><br /><br />
+                <label for="psw">Password</label><br />
+                <input className=' pwd rounded-lg bg-[#61dafb] ' type="password" id="psw" name="psw" required></input><br /> 
+                <button className='btn w-40 bg-[#61dafb] shadow-lg shadow-[#cbf1fb] hover:shadow-teal-500'>Submit</button>
+            </div> 
+        </div>
     );
 }
 export default Login;

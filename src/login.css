@@ -1,6 +1,24 @@
-div{
-    padding: 100px;
+.box{
+    height: 50%;
+    padding: 50px;
     text-align: center;
+}
+.pwd{
+    margin: 0px 10px 10px 10px;
+}
+.btn{
+    margin: 10px;
+}
+.btn:hover {background-color: #61dafb;}
+.name{
+    padding-top: 10%;
+    height: 50%;
+    width: 50%;
+    text-align: center;
+    display: inline-block;
+}
+img{
+    display: inline-block;
 }
 h2,h3{
     margin: 0px;
