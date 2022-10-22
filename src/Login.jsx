@@ -7,7 +7,7 @@ function Login() {
             <div className= 'box bg-white drop-shadow-lg rounded-lg' >
                 <img src='./images/logo.png' alt="logo"></img><br /><br />
                 <label for="psw">Password</label><br />
-                <input className=' pwd rounded-lg bg-[#61dafb] ' type="password" id="psw" name="psw" required></input><br /> 
+                <input className=' pwd rounded-lg bg-[#61dafb] text-center' type="password" id="psw" name="psw" required></input><br /> 
                 <button className='btn w-40 bg-[#61dafb] shadow-lg shadow-[#cbf1fb] hover:shadow-teal-500'>Submit</button>
             </div> 
         </div>
