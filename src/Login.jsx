@@ -1,18 +1,10 @@
-import './login.css'
-import Home from "./home/Home"
+import './login.css';
 import React from 'react';
-//import {BrowserRouter, Route, Routes, useNavigate,} from 'react-router-dom';
-//import { redirect } from 'react-router-dom';
-function Login() {
+function Login(props) {
     const passw="1234";
-    // function getPass()
-    // {
-    //    if(document.querySelector('input').value === passw)
-    //     {
-    //         <Home />
-    //     }
-    //     else{ window.alert("Wrong Password")}
-    // }
+    const onLogin = (page) => {
+        props.setActivePage(page);
+      };
     return (
         <div className='name'>
           <h2 className='font-bold text-[#1d3d6a] justify-center'>Welcome to Towerhill</h2>  
@@ -26,7 +18,7 @@ function Login() {
                      {
                         if(document.querySelector('input').value === passw)
                          {
-                                <Home />
+                            onLogin("home");
                          }
                          else{ window.alert("Wrong Password")}
                      }
