@@ -1,9 +1,12 @@
 import React from "react";
+import Header from "./header/Header";
+import Navbar from "./navbar/Navbar";
 function Home() {
    
     return (
-        <div className='hom bg-black' >
-         <h1>helloo</h1>
+        <div className='home block' >
+            <Navbar /><br />
+            <Header />
         </div>
     );
 }

@@ -1,0 +1,30 @@
+.navbar{
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    padding: 0%;
+}
+.navContainer{
+    width: 100%;
+    max-width: 100%;
+    padding: 10px 0 10px 0;
+    color: #000934;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: whitesmoke;
+}
+.navButton{
+    margin-right: 40px;
+    color: azure;
+    border:black;
+    cursor: pointer;
+    background-color: rgb(9, 119, 203);
+    padding: 5px;
+    border-radius: 10px;
+    font-weight:600;
+}
+.navButton:hover{
+    background-color: rgb(1, 21, 44);
+    color: azure;
+}
