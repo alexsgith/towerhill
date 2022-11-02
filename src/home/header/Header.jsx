@@ -25,7 +25,11 @@ function Header() {
                 <span className="Phone">
                     <label className='Pnlabel font-bold'>Phone:</label>
                     <input type="tel" className='Pinput mx-2' placeholder="888 888 8888" pattern="[0-9]{3} [0-9]{3} [0-9]{4}" maxlength="12"  title="Ten digits code" required/>
-                </span> <br />
+                </span> &nbsp;&nbsp;&nbsp;&nbsp; 
+                <span className="Refer">
+                    <label className='Nmlabel font-bold'>Reference:</label>
+                    <input type="text" className='Rfinput mx-2'></input>
+                </span><br />
                 <div className="optionText inline-block p-3">
                     <label className='Nmlabel font-bold'>Adult:</label>
                     <button disabled={options.adult <= 1} 
@@ -77,11 +81,16 @@ function Header() {
                     <label className='Cblabel '>Food:</label>
                     <input type="checkbox" defaultChecked="true" className='Cbinput mx-2'></input>
                 </span><br />
-                <span className="date">
-                    <label className='dtlabel font-bold'>Date:</label>
-                    <input type="date" className='dtinput bg-transparent px-2'></input>
-                </span>
-                
+                <div className='Date p-2'>
+                    <span className="Sdate">
+                        <label className='dtlabel font-bold'>Checkin:</label>
+                        <input type="date" className='dtinput bg-transparent px-2'></input>
+                    </span>&nbsp;&nbsp;&nbsp;&nbsp;
+                    <span className="Edate">
+                        <label className='dtlabel font-bold'>Checkout:</label>
+                        <input type="date" className='dtinput bg-transparent px-2'></input>
+                    </span>
+                </div>
             </div>
             <br/>
             <button className="navButton drop-shadow-sm" >Submit</button>
