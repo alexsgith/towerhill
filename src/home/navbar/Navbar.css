@@ -20,8 +20,8 @@
     border:black;
     cursor: pointer;
     background-color: rgb(9, 119, 203);
-    padding: 5px;
-    border-radius: 10px;
+    padding: 13px;
+    border-radius: 50px;
     font-weight:600;
 }
 .navButton:hover{
