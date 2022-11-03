@@ -6,6 +6,7 @@ function Login(props) {
         props.setActivePage(page);
       };
     return (
+      
         <div className='name'>
           <h2 className='font-bold text-[#1d3d6a] justify-center'>Welcome to Towerhill</h2>  
           <br />

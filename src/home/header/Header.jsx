@@ -1,3 +1,4 @@
+
 import React,{useState} from 'react'
 import'./Header.css'
 function Header() {
@@ -16,11 +17,11 @@ function Header() {
                 <br/>
                 <span className="check">
                     <label className='Cblabel font-black text-xl text-blue-900'>Tick the box for new booking:</label>
-                    <input type="checkbox" className='Cbinput mx-2'></input>
+                    <input type="checkbox" id="ck" className='Cbinput mx-2' defaultChecked="false" ></input>
                 </span><br /><br />
                 <span className="Name">
                     <label className='Nmlabel font-bold'>Name:</label>
-                    <input type="text" className='Nminput mx-2'></input>
+                    <input  type="text"  className='Nminput mx-2'></input>
                 </span> &nbsp;&nbsp;&nbsp;&nbsp;
                 <span className="Phone">
                     <label className='Pnlabel font-bold'>Phone:</label>

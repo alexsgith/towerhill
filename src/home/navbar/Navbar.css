@@ -24,7 +24,21 @@
     border-radius: 50px;
     font-weight:600;
 }
+.AgButton{
+    margin-right: 10px;
+    color: azure;
+    border:black;
+    cursor: pointer;
+    background-color: rgb(9, 119, 203);
+    padding: 13px;
+    border-radius: 50px;
+    font-weight:600;
+}
 .navButton:hover{
     background-color: rgb(1, 21, 44);
+    color: azure;
+}
+.AgButton:hover{
+    background-color: rgb(0, 56, 120);
     color: azure;
 }
